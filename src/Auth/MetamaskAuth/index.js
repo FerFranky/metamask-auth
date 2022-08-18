@@ -41,7 +41,7 @@ async function connect(onConnected) {
 async function checkIfWalletIsConnected(onConnected) {
   let accounts = '';
   if (window.ethereum) {
-    await window.ethereum.request({
+    accounts = await window.ethereum.request({
       method: "eth_accounts",
     }).catch((error) => {
       // EIP-1193 userRejectedRequest error
