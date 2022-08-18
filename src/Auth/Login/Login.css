@@ -1,0 +1,51 @@
+.Login{
+  text-align: center;
+  display: table-cell;
+  width: calc(100vw - 10px);
+  height: calc(100vh - 10px);
+  vertical-align: middle;
+}
+.Login-Modal{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 30px;
+  
+}
+.Image-Modal{
+  width: 100px;
+  height: 100px;
+}
+.btn-Modal{
+  width: 100%;
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  border: 0;
+}
+.btn-Modal:hover {
+  background-color: #F1F0F0;
+  color: orange;
+}
+.btn-Modal:active {
+  background-color: #F1F0F0;
+  color: orange;
+}
+.btn-Modal:visited {
+  background-color: #F1F0F0;
+  color: orange;
+}
+h6{
+  margin-top: 20px;
+  color: #B8B8B8;
+}
+.btn-Login{
+  padding-left: 150px;
+  padding-right: 150px;
+  border-radius: 30px;
+  color: white;
+}
+.icon-Login{
+  margin-top: -5px;
+  font-size: 25px;
+}
