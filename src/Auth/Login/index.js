@@ -6,6 +6,7 @@ import { TbCurrencyEthereum } from "react-icons/tb";
 import { MetamaskAuth } from '../MetamaskAuth';
 import { MetaMaskSign } from '../MetaMaskSign';
 import { ethers } from "ethers";
+import { ToastContainer, toast } from "react-toastify";
 import image from "../../assets/metamask.png";
 function Login() {
   const [show, setShow] = useState(false);
@@ -33,6 +34,15 @@ function Login() {
       console.log(address);
     } catch (error) {
       console.log(error);
+      toast("No fue posible firmar la peticion.", {
+        position: "bottom-center",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
     }
     console.log(message);
   };
@@ -58,6 +68,8 @@ function Login() {
         </Modal.Body>
       </Modal>
     </Card>
+    <ToastContainer />
+
     </React.Fragment>
   );
 }
