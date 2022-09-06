@@ -1,25 +1,13 @@
-import './App.css';
-import React from 'react';
-import { MetamaskAuth } from '../Auth/MetamaskAuth';
-import { Login } from '../Auth/Login';
+import "./App.css";
+import React from "react";
+import { Login } from "../Auth/Login";
+import { AuthNotifications } from "../Auth/AuthNotifications";
 
 function AppUI() {
-  let identificadorTiempoDeEspera;
-
-  function temporizadorDeRetraso() {
-    identificadorTiempoDeEspera = setTimeout(funcionConRetraso, 10000);
-  }
-
-  function funcionConRetraso() {
-    console.log("Han pasado 3 segundos.");
-    return temporizadorDeRetraso()
-  }
-
-  // <MetamaskAuth />
   return (
-    // temporizadorDeRetraso()
     <React.Fragment>
-    <Login />
+      <Login />
+      <AuthNotifications />
     </React.Fragment>
   );
 }
