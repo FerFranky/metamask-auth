@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/metamask-auth/static/css/main.0df479ee.css",
+    "main.js": "/metamask-auth/static/js/main.b15cec37.js",
+    "static/js/787.a3a0ab50.chunk.js": "/metamask-auth/static/js/787.a3a0ab50.chunk.js",
+    "static/media/metamask.png": "/metamask-auth/static/media/metamask.dabbc866dd8c0d30be75.png",
+    "index.html": "/metamask-auth/index.html",
+    "main.0df479ee.css.map": "/metamask-auth/static/css/main.0df479ee.css.map",
+    "main.b15cec37.js.map": "/metamask-auth/static/js/main.b15cec37.js.map",
+    "787.a3a0ab50.chunk.js.map": "/metamask-auth/static/js/787.a3a0ab50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0df479ee.css",
+    "static/js/main.b15cec37.js"
+  ]
+}
